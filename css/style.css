@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #1c2230;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar a {
+    font-size: 15px;
+    text-decoration: none;
+    margin: 0 20px;
+    color: white;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8% 0;
+}
+
+.image-logo {
+    width: 100PX;
+}
+
+.imagem-logo {
+    display: flex; 
+    width: 450px; 
+    justify-content: center; 
+    align-items: center;
+    margin: 10px;
+}
+
+.home-content h1 {
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin: 5px;
+    
+}
+
+.home-content p {
+    display: flex;
+    color: #c6cad2;
+    justify-content: center;
+    font-size: 12px;
+}
+
+
+.button-home {
+    background-color: #4ec3d4;
+    border-style: none;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    align-items: center;
+    margin: 20px;
+}
+
+.description {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8% 0;
+}
+
+
+.row-one-content h1 {
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin: 5px;
+    font-size: 15px;
+}
+
+.image-row {
+    justify-content: center; 
+    margin: 10px;
+    padding-left: 90px;
+}
+
+.row-one-content {
+    margin: 40px;
+}
+
+.row-one-content p {
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-size: 13px;
+}
+
+.sub-description-content h1{
+    color: white;
+    font-size: 50px;
+}
+
+.sub-description-content p{
+    color: white;
+    font-size: 15px;
+}
+
+.sub-description-content hr{
+    width: 150px;
+}
+
+.arrow-icon {
+    display: flex;
+}
+
+.icon-arrow {
+    padding-left: 4px;
+}
+
+.sub-description-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width: 768px) {
+    .nav-bar {
+        display: none;
+    }
+    .row-line {
+        display: grid;
+    }
+    .sub-description-content {
+        display: grid;
+    }
+}
